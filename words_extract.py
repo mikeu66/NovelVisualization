@@ -20,6 +20,7 @@ def create_freq(lst):
 	d = defaultdict(int)
 	for i in lst:
 		d[i] += 1
+	#referenced from https://stackoverflow.com/questions/613183/how-do-i-sort-a-dictionary-by-value
 	sort = sorted(d.items(), key=lambda x:x[1])
 	for key in sort:
 		p = (key[0],"  :  ", key[1])
