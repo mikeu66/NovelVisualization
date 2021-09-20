@@ -34,7 +34,6 @@ def get_unique(lst):
 	sort = sorted(d.items(), key=lambda x:x[1])
 	for j in sort:
 		if int(j[1]) == 1:
-			#unique.write(j[0]+"  :  "+ str(j[1])+"\n")
 			unique.write(j[0]+'\n')
 
 
