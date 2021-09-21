@@ -1,0 +1,20 @@
+The python script takes Moby Dick from a text file and generates three text files. We cleaned the text file of special characters such as accents. The allwords.txt contains all the words from the book without punctuation, placing each word on its own line. The uniquewords.txt contains words that were only used once in the book with each word also being placed on its own line. The wordfrequency.txt contains the word frequency as well as the frequency of the number of occurences of said frequency. Each frequency is also on its own line and sorted in ascending order.
+
+We generated our mobydick_wordcloud.png using our allwords.txt file on the WordCloud website.
+
+The a3_novelvisualization.pde file is a processing file that uses the uniquewords.txt file. It generates a word cloud with different colors and sizes dependant upon the length of the word.
+Among many metaphors and aspects of symbolism, Moby Dick encompasses the story of a sailor and a Moby Dick, the giant white sperm whale.
+The gray background represents the elements of the unknown.
+The color black represents the element of fear and is applied to words with a length of 4 characters or less.
+The color white represents perception and is applied to words with a length between 5 to 7 characters.
+The color blue represents the vasts waters and is applied to words with a length of 8 characters or greater. 
+
+Using mouseclicks, the image window will generate a new unique random word cloud.
+
+The a3_wordfrequency.pde file is a processing file that uses the wordfrequency.txt file. It generates a visualization of the relationship between word frequency and numbers of words with those frequencies.
+
+Ian and Ashna pair-programmed the a3_novelvisualization code. 
+Ahmet worked on the word_frequency portion of the assingment, and Michael worked with the extract_words portion.
+We compiled our code together through github to test and finalize our code.
+
+
